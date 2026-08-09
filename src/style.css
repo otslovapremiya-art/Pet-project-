@@ -1,0 +1,36 @@
+/* Оформление страницы. О логике игры этот файл ничего не знает. */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #555555;
+}
+
+/* Число намеренно крупное: его должно быть видно, не приглядываясь. */
+#число {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#кнопка {
+    font-size: 20px;
+    padding: 14px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #2f6fb3;
+    color: #ffffff;
+}
+
+#кнопка:hover {
+    background-color: #255a92;
+}
