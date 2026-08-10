@@ -21,7 +21,7 @@ h1 {
     margin: 20px 0;
 }
 
-#кнопка {
+#кнопка, #кнопкаПокупки {
     font-size: 20px;
     padding: 14px 40px;
     cursor: pointer;
@@ -31,6 +31,13 @@ h1 {
     color: #ffffff;
 }
 
-#кнопка:hover {
+#кнопка:hover, #кнопкаПокупки:hover {
     background-color: #255a92;
+}
+
+/* Выключенная кнопка покупки: серая и не нажимается.
+   Так видно, что очков пока не хватает. */
+#кнопкаПокупки:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
 }
